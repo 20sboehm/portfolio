@@ -29,17 +29,6 @@ body {
     padding-left: 3rem;
 }
 
-.navbar-links ul li a {
-    color: inherit;
-    text-decoration: none;
-    font-size: 1.2rem;
-    transition: color 0.1s;
-}
-
-.navbar-links ul li a:hover {
-    color: rgb(102, 53, 53);
-}
-
 .portfolio-name {
     font-family: 'Koulen';
     font-size: 2.5rem;
@@ -57,30 +46,9 @@ img {
     max-height: 2rem;
 }
 
-image:hover {
-    background-color: red;
-}
-
-.grid {
-    height: 72rem;
-    width: 72rem;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.grid .project-box {
-    text-align: center;
-    border: 1px solid black;
-    background-color: white;
-    height: 20rem;
-    width: 20rem;
-    margin: 1rem;
-}
-
 .bio {
     color: rgb(204, 214, 246);
-    font-family: Merriweather,serif;
+    font-family: serif;
     font-size: 3rem;
     text-align: left;
     padding-left: 20%;
