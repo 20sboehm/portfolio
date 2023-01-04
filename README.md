@@ -1,4 +1,4 @@
 # portfolio
-A simple website.
+A straightforward portfolio website.
 
-sethboehm.com
+https://sethboehm.com/
