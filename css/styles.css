@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+h1, h2 {
+    margin-bottom: 1rem;
+}
+
+.logo a {
+    color: #fff;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: -0.125em;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: Arial;
+}
+
+.ez-pixel-container {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.project-img {
+    margin-top: 1rem;
+    max-width: calc(100% - 2rem);
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.link-img {
+    width: 32px;
+    height: 32px;
+    margin: 0 0.75rem;
+}
+
+.link-img:hover {
+    opacity: 0.7;
+}
+
+section {
+    max-width: calc(100% - 2rem);
+    width: 50rem;
+    margin: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2em auto;
+    padding: 2rem;
+    background-color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    box-shadow: 0 0 5px 0 gray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 3rem;
+    display: flex;
+}
+
+li {
+    color: #444;
+    font-size: 125%;
+    list-style-type: none;
+}
